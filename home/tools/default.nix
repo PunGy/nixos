@@ -2,7 +2,7 @@
 {
   imports = [
     ./fish
-    ./git
+    # ./git
   ];
 
   home.packages = with pkgs; [
@@ -10,7 +10,7 @@
     ripgrep
     lazygit
     git
-    git-credential-oauth
+    # git-credential-oauth
     wget
     curl
     nitch # better wget?
