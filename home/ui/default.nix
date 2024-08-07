@@ -26,6 +26,7 @@
     nautilus
     zenity
     gnome-tweaks
+    gnome-keyring # not very UI rather a system tool, but okay
     eog
   ]);
 

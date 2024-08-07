@@ -10,6 +10,7 @@
     ripgrep
     lazygit
     git
+    git-credential-oauth
     wget
     curl
     nitch # better wget?
