@@ -2,7 +2,7 @@
 {
   imports = [
     ./fish
-    # ./git
+    ./git
   ];
 
   home.packages = with pkgs; [

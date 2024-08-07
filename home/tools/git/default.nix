@@ -14,7 +14,7 @@
   programs.git = {
     enable = true;
     extraConfig = {
-      credential.helper = "oauth";
+      credential.helper = "store"; # such a crime
       # credential.helper = "${
       #     pkgs.git.override { withLibsecret = true; }
       #   }/bin/git-credential-libsecret";
