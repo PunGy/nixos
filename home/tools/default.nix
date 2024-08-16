@@ -3,6 +3,7 @@
   imports = [
     ./fish
     ./git
+    ./haskell.nix
   ];
 
   home.packages = with pkgs; [
@@ -39,7 +40,7 @@
     # Go
     go
     # Haskell
-    ghc
+    #ghc
     # Rust
     cargo
     rustc
