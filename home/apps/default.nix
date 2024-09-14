@@ -2,7 +2,7 @@
 
   imports = [
     ./kitty
-    ./outlineVPN
+    # ./outlineVPN
   ];
   
   home.packages = (with pkgs; [

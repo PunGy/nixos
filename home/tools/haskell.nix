@@ -1,10 +1,8 @@
 
 { config, pkgs, ... }:
 {
-  programs = {
-    ghc = {
-      enable = true;
-    };
+  packages.ghc = {
+    enable = true;
   };
   home.file.".ghci".text = ''
     :set +m
