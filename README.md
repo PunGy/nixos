@@ -1,4 +1,4 @@
-# NixOS configuration
+# NixOS configuration (abandoned)
 
 Here kept configuration of my NixOS system. Currently it is absolutely raw, poorly managed, with tons of patches, hardware specific(NVidia), but, overall, works.
 
